@@ -1,0 +1,11 @@
+# 1. Update your package list
+sudo apt update
+
+# 2. Install required software to add new repositories
+sudo apt install -y software-properties-common
+
+# 3. Add the official Ansible PPA (Personal Package Archive)
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+
+# 4. Install Ansible
+sudo apt install -y ansible
